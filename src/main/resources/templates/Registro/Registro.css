@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+body{
+    min-height: 100vh;
+    background:
+            url(https://i.pinimg.com/564x/16/e4/4c/16e44c9e8d5dd1295171857ca90893ef.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-registrer{
+    width: 320px;
+    height: 450px;
+    background: white;
+    border: 2px solid #9AB2F0;
+    text-align: center;
+    padding: 40px;
+    margin-left: 900px;
+    margin-top: 130px;
+    border-radius: 24px;
+    font-family: Calibri;
+    color: black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nombre-apellidos-container {
+    width: 106%; /* lo ancho que son */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls{
+    width: 90%; /* lo ancho que son */
+    background-color: #C5DDF7 ;
+    padding: 15px; /* lo grande que son */
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 16px; /* el espacio de renglon entre ellos */
+    border: 2px solid #9AB2F0;
+    font-family: "Yu Gothic Medium";
+    font-size: 14px; /* lo grande que son */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.form-registrer p{
+    text-align: center;
+}
+
+
+.form-registrer a{
+    color: #9AB2F0;
+    text-decoration: none;
+
+}
+
+.form-registrer a:hover{
+    color: #9AB2F0;
+    text-decoration: underline;
+}
+
+.form-registrer .botons{
+    width: 60%;
+    background-image: linear-gradient(to right, #74ebd5, #acb6e5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    border: 2px solid #C5DDF7;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 5px ;
+    font-size: 16px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-decorativa{
+    float: left;
+    width: 420px;
+    height: 420px;
+    border-radius: 18px;
+    margin: 50px 100px 0 230px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

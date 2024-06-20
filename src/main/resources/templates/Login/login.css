@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+body{  /* imagen fondo */
+    background-color: black;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+/* contenedor del formulario de registro  */
+.form-registrer{
+    width: 28%;
+    top: 3%;
+    background: transparent;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 7%;
+    border-radius: 16px;
+    font-family: Calibri;
+    position: absolute;
+    z-index:  150;
+}
+
+/* imagen slider */
+
+.slider {
+    background-image: url("imagenes/1img.png");
+    border: solid white 0.2px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 200px;
+    border-radius: 15px;
+    animation: slide 10s infinite linear
+
+}
+
+@keyframes slide {
+    25% {background-image: url("imagenes/1img.png");}
+    50% {background-image: url("imagenes/2img.png");}
+    75% {background-image: url("imagenes/3img.png");}
+    100% {background-image: url("imagenes/4img.jpg");}
+
+}
+
+
+.controls1{
+    width: 78%; /* lo ancho que son */
+    background-color: #f6e8ff ;
+    padding: 15px; /* lo grande que son */
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 60%;
+    border: 2px solid #d084fc;
+    font-family: "Yu Gothic Medium";
+    font-size: 14px; /* lo grande que son */
+
+}
+
+.controls2{
+    width: 78%; /* lo ancho que son */
+    background-color: #f6e8ff ;
+    padding: 15px; /* lo grande que son */
+    border-radius: 10px;
+    margin: 10px;
+
+    margin-bottom: 16px; /* el espacio de renglon entre ellos */
+    border: 2px solid #d084fc;
+    font-family: "Yu Gothic Medium";
+    font-size: 14px; /* lo grande que son */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.form-registrer a:hover{
+    color: #9AB2F0;
+    text-decoration: underline;
+}
+
+.form-registrer .botons{
+    width: 70%;
+    background-color: #f6e8ff;
+    border: 2px solid #d084fc;
+    padding: 10px;
+    color: black;
+    margin: 15px 3px ;
+    font-family: "Yu Gothic Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    border-radius: 20px;
+}
+
+
