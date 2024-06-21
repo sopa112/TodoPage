@@ -54,7 +54,7 @@ body{  /* imagen fondo */
     25% {background-image: url("imagenes/1img.png");}
     50% {background-image: url("imagenes/2img.png");}
     75% {background-image: url("imagenes/3img.png");}
-    100% {background-image: url("imagenes/4img.jpg");}
+    75% {background-image: url("imagenes/4img.jpg");}
 
 }
 
